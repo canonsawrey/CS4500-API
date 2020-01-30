@@ -79,5 +79,5 @@ class Array : public Object {
          * Returns the index of the item
          * @return index of the item. -1 if it does not contain the item
          */
-        size_t indexOf(Object* item) { }
+        int indexOf(Object* item) { }
 };
